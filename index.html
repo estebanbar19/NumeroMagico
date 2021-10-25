@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Número Magico</title>
+        <link rel="stylesheet" href="css/estilo.css" id="estilo">
+    </head>
+    <body>
+        <div id="cuadro">
+            <header>
+                <h1>Número Magico</h1>
+            </header>
+            <div id="container">
+                <input type="button" value="Generar número aleatorio" id="btnGenerar">
+                <div id="pista">Digita un número</div>
+                <p>Cantidad de intentos: <span id="cantIntentos">10</span></p>
+                <label for="numDigitado">Número:</label>
+                <input type="text" id="numDigitado">
+            </div>
+            <input type="button" value="Verificar" id="btnVerificar">
+            <div id="temporizador">
+                <h4 id="cronometro">00 : 00 : 00 : 00</h4>
+            </div>
+        </div>
+    </body>
+    <script src="js/numMagic.js"></script>
+    <script src="js/cronometro.js"></script>
+</html>
